@@ -6,11 +6,11 @@ class Dog {
 	void bark(int count) {
 		for (int i = 0; i < count; i++) {
 			if (size > 60) {
-				System.out.println("Ãàâ Ãàâ!");
+				System.out.println("Gav Gav!");
 			} else if (size > 14) {
-				System.out.println("Òÿô Òÿô!");
+				System.out.println("Tyaf Tyaf!");
 			} else {
-				System.out.println("Âóô Âóô!");	
+				System.out.println("Vuf Vuf!");	
 			}
 		}
 	}
