@@ -3,13 +3,15 @@ class Dog {
 	int size;
 	String name;
 
-	void bark() {
-		if (size > 60) {
-			System.out.println("Ãàâ Ãàâ!");
-		} else if (size > 14) {
-			System.out.println("Âóô Âóô!");
-		} else {
-			System.out.println("Òÿô Òÿô!");	
+	void bark(int count) {
+		for (int i = 0; i < count; i++) {
+			if (size > 60) {
+				System.out.println("Ãàâ Ãàâ!");
+			} else if (size > 14) {
+				System.out.println("Òÿô Òÿô!");
+			} else {
+				System.out.println("Âóô Âóô!");	
+			}
 		}
 	}
 }
@@ -24,8 +26,8 @@ class DogTestDrive {
 		Dog three = new Dog();
 		three.size = 35;
 
-		one.bark();
-		two.bark();
-		three.bark(); 
+		one.bark(5);
+		two.bark(10);
+		three.bark(15); 
 	}	
 }
