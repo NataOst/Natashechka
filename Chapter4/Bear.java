@@ -16,6 +16,10 @@ class Bear {
 	public int getAge(){
 		return age;
 	}
+
+	public String sayHello(String nameFriend) {
+		return "Hello " + nameFriend + " I am " + this.name;
+	}
 }
 
 class BearTestDrive {
@@ -28,5 +32,7 @@ class BearTestDrive {
 		ipalit.setAge(ageIpalit);
 		System.out.println("The name is - " + ipalit.getName());
 		System.out.println("The age is - " + ipalit.getAge());
+		String bestFriend = "Irvin";
+		System.out.println(ipalit.sayHello(bestFriend));
 	}
 }
