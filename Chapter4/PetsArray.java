@@ -9,7 +9,7 @@ class PetsArray {
 		int x = pets[0].getSize();
 		pets[1].setSize(8);
 		int y = pets[1].getSize();
-		System.out.println("The size of the first dog :" + x);
-		System.out.println("The size of the second dog :" + y);
+		System.out.println("The size of the first dog : " + x);
+		System.out.println("The size of the second dog : " + y);
 	}
 }
