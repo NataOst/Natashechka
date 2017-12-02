@@ -11,5 +11,10 @@ public class ArrDemo {
 			System.out.println("The value is " + arr[j] + " The index is " + j);
 			j = j + 1;		
 		}
+		j = 9;
+		while (j > 0) {
+			System.out.println("The value is " + arr[j] + " The index is " + j);
+			j = j - 1;
+		}
 	}
 }
